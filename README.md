@@ -6,29 +6,38 @@ This repository consists of files required for end to end implementation and dep
 
 Welcome, and thank you for opening this Project. This project contains :
 
-1-Jupyter NoteBook 'car-prediction' : 
+1-Data :
+
+1.1-RAW: contain the original data (not clean)
+
+1.2-CURATED: in this floder you will find clean data
+
+2-Src :
+
+2.1-Jupyter NoteBook 'brief 7' & 'badewa analys' : 
 
 Here, we read in our data set and doing some cleanning and analyses
 
-2-App.py
+2.2-App.py
 
-is a flask web application which predicts car prices based on given independent features like 'symboling',  'fueltype', 'aspiration', 'enginesize', 'highwaympg' 
-'doornumber', 'carbody', 'drivewheel', 'enginelocation', 'wheelbase','carlength', 'carwidth', 'carheight', 'curbweight', 'enginetype', 'cylindernumber', 'fuelsystem', 'boreratio', 'stroke','compressionratio', 'horsepower', 'peakrpm', 'citympg', 
+is a flask web application which predicts car prices based on given independent features like 
 
-3-Model.py
+2.3-Model.py
 
 in this part we prepare the data (scaling dummies ..) then we train the linear regression model on 70% then we test on 30% of the data.
 we use pickle to save the model
 
-4- index. html style.css 
+2.4- template and static/css :
 
-we build the graphical interface of the app
+you will find in this floders index.html style.css 
 
-5- requirements.txt
+necessary files to build the graphical interface of the app
+
+2.5- requirements.txt
 
 this file contains the required packages and libraries to make the app 
 
-
+2.6-some pkl file like model.pkl and scalerX.pkl ...
 
 ## Technologies Used
 
